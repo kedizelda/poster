@@ -1,0 +1,702 @@
+body {
+  background: black;
+}
+
+p {
+  color: #959595;
+  font-family: "times new roman", serif;
+  font-size: 13px;
+  position: absolute;
+  top: 1405px;
+  left: 170px;
+}
+
+.blood1 {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 270px;
+}
+
+.blood1 img {
+  width: 100%;
+  height: auto;
+}
+
+.blood2 {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: 269px;
+  top: 0px;
+  width: 270px;
+}
+
+.blood2 img {
+  width: 100%;
+  height: auto;
+  transform: rotateY(180deg);
+}
+
+.bigsplatter {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: -20px;
+  top: 390px;
+  width: 270px;
+}
+
+.bigsplatter img {
+  width: 140%;
+  height: auto;
+  opacity: 0.5;
+  transform: rotate(90deg);
+}
+
+.letter-d {
+  position: relative;
+  border: 1px solid transparent;
+  width: 170px;
+  height: 277px;
+  left: 175px;
+  top: 11px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-d:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+@keyframes flicker {
+  0% {opacity: 1;}
+  25% {opacity: 0.9;}
+  50% {opacity: 0.6;}
+  75% {opacity: 0.25;}
+  100% {opacity: 0.9;}
+}
+
+.d-rectangle {
+  width: 40px;
+  height: 170px;
+  background: #680707; 
+  position: absolute;
+  top: 90px;
+  left: 61px;
+}  
+
+.d-rectangle:after {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 20px solid #680707;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+}
+
+.d-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid #680707;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: 61px;
+  top: 10px;
+}
+
+.d-dot-bottom {
+  background: black;
+  width: 80px;
+  height: 107px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+}
+
+.d-line {
+  width: 1px;
+  height: 55px;
+  background: #680707;
+  transform: skew(-40deg);
+  position: absolute;
+  left: 106px;
+  bottom: 17px;
+}
+
+.d-rectangle2 {
+  width: 70px;
+  height: 90px;
+  background: #680707; 
+  position: absolute;
+  transform: rotate(90deg);
+  bottom: 25px;
+  left: 10px;
+}  
+
+.d-rectangle2:after {
+  content: "";
+  width: 24px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 23px solid #680707;
+  border-left: 23px solid black;
+  border-right: 23px solid black;
+}
+
+.d-rectangle3 {
+  width: 35px;
+  height: 30px;
+  background: black; 
+  position: absolute;
+  bottom: 55px;
+  left: 25px;
+} 
+
+.letter-r {
+  position: relative;
+  border: 1px solid transparent;
+  width: 226px;
+  height: 110px;
+  top: -15px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-r:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.r-rectangle {
+  width: 40px;
+  height: 40px;
+  background: #680707; 
+  transform: skew(-35deg);
+  position: absolute;
+  top: 0px;
+  right: 58px;
+}  
+
+.r-rectangle2 {
+  width: 40px;
+  height: 70px;
+  background: #680707; 
+  position: absolute;
+  bottom: 0px;
+  right: 72px;
+}  
+
+.r-rectangle3 {
+  width: 65px;
+  height: 30px;
+  background: #680707; 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}  
+
+.r-rectangle4 {
+  width: 35px;
+  height: 60px;
+  background: #680707;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.r-line {
+  width: 1px;
+  height: 70px;
+  background: #680707;
+  transform: skew(-35deg);
+  position: absolute;
+  right: 108px;
+  top: 0px;
+}
+
+.letter-a {
+  position: relative;
+  top: -127px;
+  left: 155px;
+  border: 1px solid transparent;
+  width: 226px;
+  height: 110px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-a:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.a-rectangle {
+  width: 38px;
+  height: 72px;
+  background: #680707; 
+  position: absolute;
+  top: 15px;
+  right: 85px;
+} 
+
+.a-rectangle:before {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 25px solid #680707;
+  border-left: 23px solid black;
+  border-right: 10px solid #680707;
+}
+
+.a-rectangle2 {
+  width: 40px;
+  height: 51px;
+  background: #680707; 
+  transform: skew(30deg);
+  position: absolute;
+  top: 15px;
+  right: 42px;
+} 
+
+.a-rectangle3 {
+  width: 38px;
+  height: 52px;
+  background: #680707; 
+  transform: skew(-30deg);
+  position: absolute;
+  bottom: 5px;
+  right: 42px;
+} 
+
+.a-rectangle4 {
+  width: 38px;
+  height: 18px;
+  background: #680707; 
+  transform: skew(20deg);
+  position: absolute;
+  bottom: 5px;
+  right: 82px;
+} 
+
+.a-line {
+  width: 1px;
+  height: 50px;
+  background: #680707;
+  transform: skew(-42deg);
+  position: absolute;
+  right: 123px;
+  top: 16px;
+}
+
+.a-rectangle5 {
+  width: 25px;
+  height: 110px;
+  background: #680707;
+  position: absolute;
+  top: 0px;
+  right: 27px;
+}
+
+.a-rectangle5:before {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 25px solid #680707;
+  border-left: 5px solid #680707;
+  border-right: 20px solid black;
+}
+
+.a-rectangle6 {
+  width: 22px;
+  height: 20px;
+  background: #680707; 
+  transform: skew(-35deg);
+  position: absolute;
+  bottom: 0px;
+  right: 6px;
+}
+
+.letter-c {
+  position: relative;
+  top: -124px;
+  border: 1px solid transparent;
+  width: 226px;
+  height: 110px;
+  left: -20px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-c:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.c-rectangle {
+  width: 38px;
+  height: 82px;
+  background: #680707; 
+  position: absolute;
+  top: 0px;
+  right: 55px;
+} 
+
+.c-rectangle:before {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 35px solid #680707;
+  border-left: 23px solid black;
+  border-right: 10px solid #680707;
+}
+
+.c-rectangle2 {
+  width: 40px;
+  height: 41px;
+  background: #680707; 
+  transform: skew(30deg);
+  position: absolute;
+  top: 0px;
+  right: 12px;
+} 
+
+.c-rectangle3 {
+  width: 38px;
+  height: 42px;
+  background: #680707; 
+  transform: skew(-30deg);
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+} 
+
+.c-rectangle4 {
+  width: 38px;
+  height: 28px;
+  background: #680707; 
+  transform: skew(20deg);
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+} 
+
+.c-line {
+  width: 1px;
+  height: 70px;
+  background: #680707;
+  transform: skew(-34deg);
+  position: absolute;
+  right: 93px;
+  top: 0;
+}
+
+.letter-u {
+  position: relative;
+  top: -236px;
+  left: 144px;
+  border: 1px solid transparent;
+  width: 227px;
+  height: 110px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-u:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.u-line {
+  width: 1px;
+  height: 45px;
+  background: #680707;
+  transform: skew(-50deg);
+  position: absolute;
+  left: 110px;
+  top: 10px;
+}
+
+.u-rectangle {
+  width: 40px;
+  height: 60px;
+  background: #680707; 
+  position: absolute;
+  top: 35px;
+  left: 107px;
+}  
+
+.u-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 35px solid #680707;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: 107px;
+  top: 0px;
+}
+
+.u-rectangle2 {
+  width: 40px;
+  height: 67px;
+  background: #680707; 
+  position: absolute;
+  top: 0px;
+  left: 187px;
+}  
+
+.u-rectangle3 {
+  width: 120px;
+  height: 43px;
+  background: #680707;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.u-rectangle3:after {
+  content: "";
+  width: 62px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid #680707;
+  border-left: 29px solid black;
+  border-right: 29px solid black;
+}
+
+.letter-l {
+  position: relative;
+  top: -235px;
+  border: 1px solid transparent;
+  width: 111px;
+  height: 777px;
+  left: 135px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-l:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.l-rectangle {
+  width: 40px;
+  height: 600px;
+  background: #680707; 
+  position: absolute;
+  top: 80px;
+  left: 71px;
+}  
+
+.l-triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid #680707;
+  border-left: 40px solid transparent;
+  position: absolute;
+  left: 71px;
+  top: 0px;
+}
+
+.l-triangle2 {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #680707;
+  border-right: 40px solid transparent;
+  position: absolute;
+  left: 71px;
+  top: 680px;
+}
+
+.l-dot-bottom {
+  background: black;
+  width: 80px;
+  height: 207px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  left: 7px;
+}
+
+.l-line {
+  width: 1px;
+  height: 80px;
+  background: #680707;
+  transform: skew(-27deg);
+  position: absolute;
+  left: 70px;
+  top: 42px;
+}
+
+.longsplatter {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: 150px;
+  top: 800px;
+  width: 270px;
+}
+
+.longsplatter img {
+  width: 200%;
+  height: auto;
+  transform: rotateY(180deg);
+  opacity: 0.4;
+}
+
+.letter-aa {
+  position: relative;
+  top: -240px;
+  border: 1px solid transparent;
+  width: 226px;
+  height: 110px;
+  left: 70px;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.letter-aa:hover {
+  animation-name: flicker;
+  animation-timing-function: ease;
+}
+
+.aa-rectangle {
+  width: 38px;
+  height: 72px;
+  background: #680707; 
+  position: absolute;
+  top: 15px;
+  right: 85px;
+} 
+
+.aa-rectangle:before {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 25px solid #680707;
+  border-left: 23px solid black;
+  border-right: 10px solid #680707;
+}
+
+.aa-rectangle2 {
+  width: 40px;
+  height: 51px;
+  background: #680707; 
+  transform: skew(30deg);
+  position: absolute;
+  top: 15px;
+  right: 42px;
+} 
+
+.aa-rectangle3 {
+  width: 38px;
+  height: 52px;
+  background: #680707; 
+  transform: skew(-30deg);
+  position: absolute;
+  bottom: 5px;
+  right: 42px;
+} 
+
+.aa-rectangle4 {
+  width: 38px;
+  height: 18px;
+  background: #680707; 
+  transform: skew(20deg);
+  position: absolute;
+  bottom: 5px;
+  right: 82px;
+} 
+
+.aa-line {
+  width: 1px;
+  height: 50px;
+  background: #680707;
+  transform: skew(-42deg);
+  position: absolute;
+  right: 123px;
+  top: 16px;
+}
+
+.aa-rectangle5 {
+  width: 25px;
+  height: 110px;
+  background: #680707;
+  position: absolute;
+  top: 0px;
+  right: 27px;
+}
+
+.aa-rectangle5:before {
+  content: "";
+  width: 0px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 25px solid #680707;
+  border-left: 5px solid #680707;
+  border-right: 20px solid black;
+}
+
+.aa-rectangle6 {
+  width: 22px;
+  height: 20px;
+  background: #680707; 
+  transform: skew(-35deg);
+  position: absolute;
+  bottom: 0px;
+  right: 6px;
+}
+
+.candle1 {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: 40px;
+  top: 1250px;
+  width: 270px;
+}
+
+.candle1 img {
+  width: 40%;
+  height: auto;
+}
+
+.candle2 {
+  margin: 5px;
+  border: none;
+  position: absolute;
+  left: 320px;
+  top: 1250px;
+  width: 270px;
+}
+
+.candle2 img {
+  width: 40%;
+  height: auto;
+}
