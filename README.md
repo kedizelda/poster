@@ -5,6 +5,7 @@ pictures used:
 http://www.clker.com/cliparts/d/t/5/A/H/C/red-with-black-background-hi.png
 https://media.istockphoto.com/vectors/blood-splash-drop-paint-on-black-background-vector-id1308069883?k=20&m=1308069883&s=612x612&w=0&h=6SuaZGeW7kEXjWkZ5OHlcvnOriNLvacyMGgU7hNTzgE=
 https://ak.picdn.net/shutterstock/videos/1041541525/thumb/1.jpg
+https://c.tenor.com/9R51GNGibfAAAAAM/candle.gif
 
 references used:
 https://blog.hubspot.com/website/css-hover-animation
